@@ -1,0 +1,72 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@elastic/datemath": "^5.0.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.25",
+    "chroma-js": "^2.4.2",
+    "classnames": "^2.3.2",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^7.0.3",
+    "postcss": "^8.4.18",
+    "postcss-loader": "^7.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-focus-on": "^3.6.0",
+    "react-is": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass-lint": "^1.13.1",
+    "tabbable": "^6.0.1",
+    "ts-unused-exports": "^8.0.0",
+    "typescript": "^4.8.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/css": "^11.10.0",
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@emotion/jest": "^11.10.0",
+    "@emotion/react": "^11.10.4",
+    "@types/chroma-js": "^2.1.4",
+    "@types/lodash": "^4.14.188",
+    "@types/react-is": "^17.0.3",
+    "@types/url-parse": "^1.4.8",
+    "@types/uuid": "^8.3.4",
+    "sass": "^1.56.1",
+    "sass-lint": "^1.13.1",
+    "sass-lint-auto-fix": "^0.21.2",
+    "sass-loader": "^13.2.0"
+  }
+}

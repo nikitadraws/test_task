@@ -1,0 +1,21 @@
+
+
+@import "themes/legacy/legacy_light" ;
+
+.App {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.description-box {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 20px;
+    max-width: 200px;
+     
+    label {
+        display: block;
+        margin-top: 5px;
+    }
+}
+
